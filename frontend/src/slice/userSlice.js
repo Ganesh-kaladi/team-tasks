@@ -6,7 +6,7 @@ export const getAllUsers = createAsyncThunk(
   "users/allUsers",
   async function (token, thunkAPI) {
     try {
-      const res = await axios.get("http://localhost:3100/api/v1/users", {
+      const res = await axios.get("https://team-tasks-backend.onrender.com/api/v1/users", {
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${token}`,
