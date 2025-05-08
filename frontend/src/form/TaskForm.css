@@ -1,0 +1,103 @@
+.task-form {
+  margin-bottom: 1rem !important;
+}
+
+@media (max-width: 576px) {
+  .task-form h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .task-form-label {
+    font-size: 0.8rem !important;
+    font-weight: 600;
+  }
+
+  .task-form-input {
+    font-size: 0.8rem !important;
+  }
+
+  .task-form-btn {
+    font-size: 0.68rem !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .task-form h3 {
+    font-size: 1.05rem;
+    text-align: center;
+  }
+
+  .task-form-label {
+    font-size: 0.86rem !important;
+    font-weight: 600;
+  }
+
+  .task-form-input {
+    font-size: 0.86rem !important;
+  }
+
+  .task-form-btn {
+    font-size: 0.72rem !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .task-form h3 {
+    font-size: 1.11rem;
+    text-align: center;
+  }
+
+  .task-form-label {
+    font-size: 0.9rem !important;
+    font-weight: 600;
+  }
+
+  .task-form-input {
+    font-size: 0.9rem !important;
+  }
+
+  .task-form-btn {
+    font-size: 0.78rem !important;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .task-form h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .task-form-label {
+    font-size: 0.9rem !important;
+    font-weight: 600;
+  }
+
+  .task-form-input {
+    font-size: 0.9rem !important;
+  }
+
+  .task-form-btn {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (min-width: 1201px) {
+  .task-form h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .task-form-label {
+    font-size: 0.999rem !important;
+    font-weight: 600;
+  }
+
+  .task-form-input {
+    font-size: 0.999rem !important;
+  }
+
+  .task-form-btn {
+    font-size: 0.899rem !important;
+  }
+}

@@ -1,0 +1,122 @@
+/* .over-title {
+  flex: 0 0 20%;
+}
+
+.over-des {
+  flex: 0 0 40%;
+}
+
+.over-given {
+  flex: 0 0 22%;
+}
+
+.over-duedate {
+  flex: 0 0 18%;
+} */
+
+.overdue {
+  margin-top: 0.9rem;
+}
+
+@media (max-width: 576px) {
+  .overdue-text {
+    flex-direction: column;
+  }
+
+  .over-title {
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+  }
+
+  .over-des,
+  .over-given,
+  .over-duedate {
+    font-size: 0.72rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .overdue-text {
+    flex-direction: column;
+  }
+
+  .over-title {
+    font-size: 0.88rem;
+    margin-bottom: 2px;
+  }
+
+  .over-des,
+  .over-given,
+  .over-duedate {
+    font-size: 0.799rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .overdue-text {
+    flex-direction: column;
+  }
+
+  .over-title {
+    font-size: 0.91rem;
+    margin-bottom: 3px;
+  }
+
+  .over-des,
+  .over-given,
+  .over-duedate {
+    font-size: 0.84rem;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .overdue-text {
+    flex-wrap: wrap;
+  }
+
+  .over-title {
+    flex: 0 0 100%;
+    font-size: 0.91rem;
+  }
+
+  .over-des {
+    flex: 0 0 60%;
+    font-size: 0.84rem;
+  }
+
+  .over-given {
+    flex: 0 0 22%;
+    font-size: 0.84rem;
+  }
+
+  .over-duedate {
+    flex: 0 0 18%;
+    font-size: 0.84rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .overdue-text {
+    flex-wrap: wrap;
+  }
+
+  .over-title {
+    flex: 0 0 100%;
+    font-size: 1rem;
+  }
+
+  .over-des {
+    flex: 0 0 60%;
+    font-size: 0.92rem;
+  }
+
+  .over-given {
+    flex: 0 0 22%;
+    font-size: 0.92rem;
+  }
+
+  .over-duedate {
+    flex: 0 0 18%;
+    font-size: 0.92rem;
+  }
+}

@@ -1,0 +1,12 @@
+.main {
+  min-height: 80vh !important;
+}
+
+.container-main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-content {
+  /* background-color: rgba(217, 228, 230, 0.678) !important; */
+}

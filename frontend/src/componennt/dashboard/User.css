@@ -1,0 +1,96 @@
+.emp {
+  box-shadow: 0px 0px 2px 1px #8d8b8b !important;
+}
+
+@media (max-width: 576px) {
+  .emp {
+    margin-top: 12px !important;
+  }
+
+  .emp h4 {
+    font-size: 1rem;
+    margin-bottom: 2px !important;
+    text-align: center;
+  }
+
+  .emp h5 {
+    font-size: 1rem;
+    margin-bottom: 2px !important;
+  }
+  .emp-text,
+  .emp-task-total {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .emp {
+    margin-top: 14px !important;
+  }
+
+  .emp h4 {
+    font-size: 1rem;
+    margin-bottom: 2px !important;
+    text-align: center;
+  }
+
+  .emp h5 {
+    font-size: 1rem;
+    margin-bottom: 2px !important;
+  }
+  .emp-text,
+  .emp-task-total {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .emp h4 {
+    font-size: 1.055rem;
+    margin-bottom: 2px !important;
+    text-align: center;
+  }
+
+  .emp h5 {
+    font-size: 1.055rem;
+    margin-bottom: 2px !important;
+  }
+  .emp-text,
+  .emp-task-total {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .emp h4 {
+    font-size: 1.1rem;
+    margin-bottom: 4px !important;
+    text-align: center;
+  }
+
+  .emp h5 {
+    font-size: 1.1rem;
+    margin-bottom: 4px !important;
+  }
+  .emp-text,
+  .emp-task-total {
+    font-size: 0.955rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .emp h4 {
+    font-size: 1.2rem;
+    margin-bottom: 4px !important;
+    text-align: center;
+  }
+
+  .emp h5 {
+    font-size: 1.2rem;
+    margin-bottom: 4px !important;
+  }
+  .emp-text,
+  .emp-task-total {
+    font-size: 1rem;
+  }
+}
