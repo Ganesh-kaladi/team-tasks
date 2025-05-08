@@ -7,7 +7,7 @@ export const assignTask = createAsyncThunk(
   async function (data, thunkAPI) {
     try {
       const res = await axios.post(
-        "http://127.0.0.1:3100/api/v1/tasks",
+        "https://team-tasks-backend.onrender.com/api/v1/tasks",
         data.formData,
         {
           headers: {
@@ -29,7 +29,7 @@ export const getTasks = createAsyncThunk(
   async function (token, thunkAPI) {
     try {
       const res = await axios.get(
-        "http://localhost:3100/api/v1/tasks/get-tasks",
+        "https://team-tasks-backend.onrender.com/api/v1/tasks/get-tasks",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -50,7 +50,7 @@ export const getEmployeeTasks = createAsyncThunk(
   async function ({ token, id, statusQuery }, thunkAPI) {
     try {
       const res = await axios.get(
-        `http://localhost:3100/api/v1/tasks/get-tasks/${id}?status=${statusQuery}`,
+        `https://team-tasks-backend.onrender.com/api/v1/tasks/get-tasks/${id}?status=${statusQuery}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
