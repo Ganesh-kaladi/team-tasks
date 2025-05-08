@@ -60,3 +60,6 @@ Environment Variables
 
 Add MongoDB URI, JWT secret, and other keys via Render dashboard.
 
+
+
+# user data added in data/uers.json file - check user emails and passwords
