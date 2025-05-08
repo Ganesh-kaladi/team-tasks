@@ -1,0 +1,82 @@
+[
+  {
+    "empName": "Olivia Walker",
+    "empID": "20251",
+    "age": 40,
+    "email": "olivia.walker@example.com",
+    "password": "test1234",
+    "designation": "Manager"
+  },
+  {
+    "empName": "Tom Anderson",
+    "empID": "20252",
+    "age": 35,
+    "email": "tom.anderson@example.com",
+    "password": "test1234",
+    "designation": "Team Lead"
+  },
+  {
+    "empName": "Sarah Clark",
+    "empID": "20253",
+    "age": 32,
+    "email": "sarah.clark@example.com",
+    "password": "test1234",
+    "designation": "Senior Developer"
+  },
+  {
+    "empName": "Brian Lewis",
+    "empID": "20254",
+    "age": 33,
+    "email": "brian.lewis@example.com",
+    "password": "test1234",
+    "designation": "Senior Developer"
+  },
+  {
+    "empName": "Laura Wilson",
+    "empID": "20255",
+    "age": 31,
+    "email": "laura.wilson@example.com",
+    "password": "test1234",
+    "designation": "Senior Developer"
+  },
+  {
+    "empName": "Mike Johnson",
+    "empID": "20256",
+    "age": 30,
+    "email": "mike.johnson@example.com",
+    "password": "test1234",
+    "designation": "Senior Developer"
+  },
+  {
+    "empName": "Emily Davis",
+    "empID": "20257",
+    "age": 27,
+    "email": "emily.davis@example.com",
+    "password": "test1234",
+    "designation": "Junior Developer"
+  },
+  {
+    "empName": "Jane Smith",
+    "empID": "20258",
+    "age": 26,
+    "email": "jane.smith@example.com",
+    "password": "test1234",
+    "designation": "Junior Developer"
+  },
+  {
+    "empName": "John Doe",
+    "empID": "20259",
+    "age": 25,
+    "email": "john.doe@example.com",
+    "password": "test1234",
+    "designation": "Junior Developer"
+  },
+  {
+    "empName": "Chris Brown",
+    "empID": "20260",
+    "age": 24,
+    "email": "chris.brown@example.com",
+    "password": "test1234",
+    "designation": "Junior Developer"
+  }
+]
