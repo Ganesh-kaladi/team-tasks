@@ -6,7 +6,7 @@ export const login = createAsyncThunk(
   async function (formData, thunkAPI) {
     try {
       const res = await axios.post(
-        "http://localhost:3100/api/v1/auth/login",
+        "https://team-tasks-backend.onrender.com/api/v1/auth/login",
         formData
       );
       return res.data;
@@ -20,7 +20,7 @@ export const logout = createAsyncThunk(
   "auth/logoutUser",
   async function (thunkAPI) {
     try {
-      const res = await axios.get("http://127.0.0.1:3100/api/v1/auth/logout");
+      const res = await axios.get("https://team-tasks-backend.onrender.com/api/v1/auth/logout");
       return res.data;
     } catch (err) {
       console.log(err);
@@ -35,7 +35,7 @@ export const getMe = createAsyncThunk(
   "auth/getme",
   async function (token, thunkAPI) {
     try {
-      const res = await axios.get("http://127.0.0.1:3100/api/v1/auth/get-me", {
+      const res = await axios.get("https://team-tasks-backend.onrender.com/api/v1/auth/get-me", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
